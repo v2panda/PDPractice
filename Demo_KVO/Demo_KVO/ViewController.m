@@ -10,12 +10,18 @@
 #import "Person.h"
 #import "Boy.h"
 #import "Girl.h"
+#import "Message.h"
+#import "NSObject+PDKVO.h"
 
 @interface ViewController ()
 
 @property (nonatomic, strong) Person *person;
 
 @property (nonatomic, strong) Boy *boy;
+
+@property (nonatomic, strong) Message *message;
+
+@property (weak, nonatomic) IBOutlet UILabel *label;
 
 @end
 
@@ -36,6 +42,8 @@ static void *BoyAgeContext = &BoyAgeContext;
 - (void)addObserver {
     self.person = [Person new];
     self.boy = [Boy new];
+    self.message = [Message new];
+    
     [self.person addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:PersonNameContext];
     [self.person addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:PersonAgeContext];
     [self.person addObserver:self forKeyPath:@"information" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:PersonInformationContext];
@@ -43,6 +51,10 @@ static void *BoyAgeContext = &BoyAgeContext;
     
     [self.boy addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:BoyNameContext];
     [self.boy addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:BoyAgeContext];
+    
+    [self.message pd_addObserver:self forKey:@"info" withBlock:^(id observedObject, NSString *observedKey, id oldValue, id newValue) {
+        self.label.text = newValue;
+    }];
 }
 
 #pragma mark - KVO
@@ -88,6 +100,11 @@ static void *BoyAgeContext = &BoyAgeContext;
     Girl *girl = [Girl new];
     girl.age = 10;
     self.person.girls = @[girl,girl,girl,girl];
+}
+- (IBAction)changeLabelText:(id)sender {
+    NSArray *msgs = @[@"Hello World!", @"Objective C", @"Swift", @"v2panda", @"www.v2panda.com", @"KVO",@"runtime"];
+    NSUInteger index = arc4random_uniform((u_int32_t)msgs.count);
+    self.label.text = msgs[index];
 }
 
 #pragma mark - dealloc

@@ -16,6 +16,8 @@
 		2816276F1DEBDCC500121745 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2816276E1DEBDCC500121745 /* Person.m */; };
 		281627721DEBF71E00121745 /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = 281627711DEBF71E00121745 /* Boy.m */; };
 		281627751DEC104200121745 /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = 281627741DEC104200121745 /* Girl.m */; };
+		282AC4C21DED1FA6008ACA8F /* NSObject+PDKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AC4C11DED1FA6008ACA8F /* NSObject+PDKVO.m */; };
+		282AC4C51DED49B5008ACA8F /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 282AC4C41DED49B5008ACA8F /* Message.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		281627711DEBF71E00121745 /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
 		281627731DEC104200121745 /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
 		281627741DEC104200121745 /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+		282AC4C01DED1FA6008ACA8F /* NSObject+PDKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PDKVO.h"; sourceTree = "<group>"; };
+		282AC4C11DED1FA6008ACA8F /* NSObject+PDKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PDKVO.m"; sourceTree = "<group>"; };
+		282AC4C31DED49B5008ACA8F /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		282AC4C41DED49B5008ACA8F /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 				281627741DEC104200121745 /* Girl.m */,
 				281627701DEBF71E00121745 /* Boy.h */,
 				281627711DEBF71E00121745 /* Boy.m */,
+				282AC4C31DED49B5008ACA8F /* Message.h */,
+				282AC4C41DED49B5008ACA8F /* Message.m */,
+				282AC4C01DED1FA6008ACA8F /* NSObject+PDKVO.h */,
+				282AC4C11DED1FA6008ACA8F /* NSObject+PDKVO.m */,
 				2816275F1DEBDA4A00121745 /* Main.storyboard */,
 				281627621DEBDA4A00121745 /* Assets.xcassets */,
 				281627641DEBDA4A00121745 /* LaunchScreen.storyboard */,
@@ -165,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2816275E1DEBDA4A00121745 /* ViewController.m in Sources */,
+				282AC4C51DED49B5008ACA8F /* Message.m in Sources */,
 				2816275B1DEBDA4A00121745 /* AppDelegate.m in Sources */,
 				281627721DEBF71E00121745 /* Boy.m in Sources */,
+				282AC4C21DED1FA6008ACA8F /* NSObject+PDKVO.m in Sources */,
 				2816276F1DEBDCC500121745 /* Person.m in Sources */,
 				281627581DEBDA4A00121745 /* main.m in Sources */,
 				281627751DEC104200121745 /* Girl.m in Sources */,
@@ -320,6 +332,7 @@
 				2816276C1DEBDA4A00121745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
