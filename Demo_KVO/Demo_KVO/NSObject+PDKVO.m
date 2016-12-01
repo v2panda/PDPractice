@@ -165,7 +165,7 @@ static Class pd_classMethod(id self, SEL _cmd) {
     // 创建观察者的信息
     PDObservationInfo *info = [[PDObservationInfo alloc] initWithObserver:observer Key:key block:block];
     // 加锁（NSMutableArray 不是线程安全的）
-    @synchronized (self) {
+    @synchronized (info) { // 这里只需传入一个object的内存地址即可，最好不要传 self
         // 获取关联对象(装着所有监听者的数组)
         NSMutableArray *observers = objc_getAssociatedObject(self, (__bridge const void *)(kPDKVOAssociatedObservers));
         if (!observers) {
