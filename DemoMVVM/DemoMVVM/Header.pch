@@ -11,5 +11,8 @@
 
 #import "ReactiveCocoa.h"
 #import "RACEXTScope.h"
+#import <AFNetworking/AFNetworking.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import "MBProgressHUD+Helper.h"
 
 #endif /* Header_h */

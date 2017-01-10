@@ -53,12 +53,14 @@
             
             // 正在登录ing...
             // 用蒙版提示
+            [MBProgressHUD showMessage:@"正在登录..."];
             NSLog(@"2.正在登录...");
             
         }else
         {
             // 登录成功
             // 隐藏蒙版
+            [MBProgressHUD hideHUD];
             NSLog(@"4.登录完成...");
         }
     }];

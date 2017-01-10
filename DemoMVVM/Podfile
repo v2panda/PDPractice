@@ -5,5 +5,7 @@ use_frameworks!
 target 'DemoMVVM' do
 
 pod 'ReactiveCocoa','2.5'
+pod 'AFNetworking'
+pod 'MBProgressHUD'
 
 end
