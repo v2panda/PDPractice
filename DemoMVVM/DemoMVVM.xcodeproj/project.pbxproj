@@ -20,6 +20,7 @@
 		28DC2D5F1E2474FF00848337 /* DBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D5E1E2474FF00848337 /* DBViewController.m */; };
 		28DC2D621E24752800848337 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D611E24752800848337 /* RequestViewModel.m */; };
 		28DC2D661E24785B00848337 /* MBProgressHUD+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D651E24785B00848337 /* MBProgressHUD+Helper.m */; };
+		28DC2D691E2482FE00848337 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D681E2482FE00848337 /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		28DC2D611E24752800848337 /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
 		28DC2D641E24785B00848337 /* MBProgressHUD+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Helper.h"; sourceTree = "<group>"; };
 		28DC2D651E24785B00848337 /* MBProgressHUD+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Helper.m"; sourceTree = "<group>"; };
+		28DC2D671E2482FE00848337 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		28DC2D681E2482FE00848337 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		2DBB70316BC140D4C0E892A1 /* Pods-DemoMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMVVM/Pods-DemoMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		78386367692E7ECE1091FED0 /* Pods-DemoMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMVVM/Pods-DemoMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,6 +139,8 @@
 			children = (
 				2819A06E1E237ECF00719043 /* Account.h */,
 				2819A06F1E237ECF00719043 /* Account.m */,
+				28DC2D671E2482FE00848337 /* Book.h */,
+				28DC2D681E2482FE00848337 /* Book.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2819A06B1E237E9C00719043 /* LoginViewModel.m in Sources */,
+				28DC2D691E2482FE00848337 /* Book.m in Sources */,
 				28DC2D661E24785B00848337 /* MBProgressHUD+Helper.m in Sources */,
 				2819A0581E23745900719043 /* ViewController.m in Sources */,
 				2819A0551E23745900719043 /* AppDelegate.m in Sources */,

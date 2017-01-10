@@ -8,11 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RequestViewModel : NSObject
+@interface RequestViewModel : NSObject 
 /**
  *  请求命令
  */
-@property (nonatomic, strong) RACCommand *requesCommand;
+@property (nonatomic, strong, readonly) RACCommand *requesCommand;
 /**
  *  模型数组
  */
