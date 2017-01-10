@@ -21,6 +21,17 @@
 		28DC2D621E24752800848337 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D611E24752800848337 /* RequestViewModel.m */; };
 		28DC2D661E24785B00848337 /* MBProgressHUD+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D651E24785B00848337 /* MBProgressHUD+Helper.m */; };
 		28DC2D691E2482FE00848337 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D681E2482FE00848337 /* Book.m */; };
+		28DC2D721E24A89F00848337 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D711E24A89F00848337 /* main.m */; };
+		28DC2D751E24A89F00848337 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D741E24A89F00848337 /* AppDelegate.m */; };
+		28DC2D781E24A89F00848337 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D771E24A89F00848337 /* ViewController.m */; };
+		28DC2D7B1E24A89F00848337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DC2D791E24A89F00848337 /* Main.storyboard */; };
+		28DC2D7D1E24A89F00848337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DC2D7C1E24A89F00848337 /* Assets.xcassets */; };
+		28DC2D801E24A89F00848337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DC2D7E1E24A89F00848337 /* LaunchScreen.storyboard */; };
+		28DC2D8A1E24AD1600848337 /* PostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D891E24AD1600848337 /* PostListViewController.m */; };
+		28DC2D8D1E24AD6E00848337 /* BlogListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D8C1E24AD6E00848337 /* BlogListViewModel.m */; };
+		28DC2D901E24B7FF00848337 /* ArticleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D8F1E24B7FF00848337 /* ArticleModel.m */; };
+		28DC2D931E24B8DB00848337 /* BlogListItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DC2D921E24B8DB00848337 /* BlogListItemViewModel.m */; };
+		BA67D96D5032CBA4D8486269 /* Pods_BlogMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B82D69327A0B874DFC344249 /* Pods_BlogMVVM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +60,30 @@
 		28DC2D651E24785B00848337 /* MBProgressHUD+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Helper.m"; sourceTree = "<group>"; };
 		28DC2D671E2482FE00848337 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
 		28DC2D681E2482FE00848337 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		28DC2D6E1E24A89E00848337 /* BlogMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DC2D711E24A89F00848337 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28DC2D731E24A89F00848337 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28DC2D741E24A89F00848337 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28DC2D761E24A89F00848337 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28DC2D771E24A89F00848337 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28DC2D7A1E24A89F00848337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28DC2D7C1E24A89F00848337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28DC2D7F1E24A89F00848337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28DC2D811E24A89F00848337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DC2D851E24A8CB00848337 /* Header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.pch; sourceTree = "<group>"; };
+		28DC2D881E24AD1600848337 /* PostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListViewController.h; sourceTree = "<group>"; };
+		28DC2D891E24AD1600848337 /* PostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostListViewController.m; sourceTree = "<group>"; };
+		28DC2D8B1E24AD6E00848337 /* BlogListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogListViewModel.h; sourceTree = "<group>"; };
+		28DC2D8C1E24AD6E00848337 /* BlogListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogListViewModel.m; sourceTree = "<group>"; };
+		28DC2D8E1E24B7FF00848337 /* ArticleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleModel.h; sourceTree = "<group>"; };
+		28DC2D8F1E24B7FF00848337 /* ArticleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleModel.m; sourceTree = "<group>"; };
+		28DC2D911E24B8DB00848337 /* BlogListItemViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogListItemViewModel.h; sourceTree = "<group>"; };
+		28DC2D921E24B8DB00848337 /* BlogListItemViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogListItemViewModel.m; sourceTree = "<group>"; };
 		2DBB70316BC140D4C0E892A1 /* Pods-DemoMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMVVM/Pods-DemoMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		76F91B0C99A2E431A3E96262 /* Pods-BlogMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlogMVVM/Pods-BlogMVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		78386367692E7ECE1091FED0 /* Pods-DemoMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMVVM/Pods-DemoMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		B82D69327A0B874DFC344249 /* Pods_BlogMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C773CA3999DBA17F817EC135 /* Pods-BlogMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlogMVVM/Pods-BlogMVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +95,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28DC2D6B1E24A89E00848337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA67D96D5032CBA4D8486269 /* Pods_BlogMVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +111,8 @@
 			children = (
 				78386367692E7ECE1091FED0 /* Pods-DemoMVVM.debug.xcconfig */,
 				2DBB70316BC140D4C0E892A1 /* Pods-DemoMVVM.release.xcconfig */,
+				76F91B0C99A2E431A3E96262 /* Pods-BlogMVVM.debug.xcconfig */,
+				C773CA3999DBA17F817EC135 /* Pods-BlogMVVM.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -78,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2819A04F1E23745900719043 /* DemoMVVM */,
+				28DC2D6F1E24A89F00848337 /* BlogMVVM */,
 				2819A04E1E23745800719043 /* Products */,
 				1876E9DA53FCA3E8381F1FD2 /* Pods */,
 				D2CDF50C8148F6B0A6AAE41C /* Frameworks */,
@@ -88,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				2819A04D1E23745800719043 /* DemoMVVM.app */,
+				28DC2D6E1E24A89E00848337 /* BlogMVVM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,10 +199,60 @@
 			name = Helpers;
 			sourceTree = "<group>";
 		};
+		28DC2D6F1E24A89F00848337 /* BlogMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				28DC2D731E24A89F00848337 /* AppDelegate.h */,
+				28DC2D741E24A89F00848337 /* AppDelegate.m */,
+				28DC2D761E24A89F00848337 /* ViewController.h */,
+				28DC2D771E24A89F00848337 /* ViewController.m */,
+				28DC2D881E24AD1600848337 /* PostListViewController.h */,
+				28DC2D891E24AD1600848337 /* PostListViewController.m */,
+				28DC2D861E24A94000848337 /* ViewModels */,
+				28DC2D871E24A94800848337 /* Models */,
+				28DC2D701E24A89F00848337 /* Supporting Files */,
+			);
+			path = BlogMVVM;
+			sourceTree = "<group>";
+		};
+		28DC2D701E24A89F00848337 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28DC2D791E24A89F00848337 /* Main.storyboard */,
+				28DC2D7C1E24A89F00848337 /* Assets.xcassets */,
+				28DC2D7E1E24A89F00848337 /* LaunchScreen.storyboard */,
+				28DC2D811E24A89F00848337 /* Info.plist */,
+				28DC2D711E24A89F00848337 /* main.m */,
+				28DC2D851E24A8CB00848337 /* Header.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28DC2D861E24A94000848337 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				28DC2D8B1E24AD6E00848337 /* BlogListViewModel.h */,
+				28DC2D8C1E24AD6E00848337 /* BlogListViewModel.m */,
+				28DC2D911E24B8DB00848337 /* BlogListItemViewModel.h */,
+				28DC2D921E24B8DB00848337 /* BlogListItemViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		28DC2D871E24A94800848337 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				28DC2D8E1E24B7FF00848337 /* ArticleModel.h */,
+				28DC2D8F1E24B7FF00848337 /* ArticleModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		D2CDF50C8148F6B0A6AAE41C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				28A6BE0C464FC54DBEC81217 /* Pods_DemoMVVM.framework */,
+				B82D69327A0B874DFC344249 /* Pods_BlogMVVM.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,6 +280,26 @@
 			productReference = 2819A04D1E23745800719043 /* DemoMVVM.app */;
 			productType = "com.apple.product-type.application";
 		};
+		28DC2D6D1E24A89E00848337 /* BlogMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DC2D821E24A89F00848337 /* Build configuration list for PBXNativeTarget "BlogMVVM" */;
+			buildPhases = (
+				D4594A9D74E26137A35ECCFC /* [CP] Check Pods Manifest.lock */,
+				28DC2D6A1E24A89E00848337 /* Sources */,
+				28DC2D6B1E24A89E00848337 /* Frameworks */,
+				28DC2D6C1E24A89E00848337 /* Resources */,
+				8D7D8A534031332C49679230 /* [CP] Embed Pods Frameworks */,
+				1519F8A7083B16FF3B701360 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogMVVM;
+			productName = BlogMVVM;
+			productReference = 28DC2D6E1E24A89E00848337 /* BlogMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,6 +310,9 @@
 				ORGANIZATIONNAME = v2panda;
 				TargetAttributes = {
 					2819A04C1E23745800719043 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					28DC2D6D1E24A89E00848337 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -213,6 +331,7 @@
 			projectRoot = "";
 			targets = (
 				2819A04C1E23745800719043 /* DemoMVVM */,
+				28DC2D6D1E24A89E00848337 /* BlogMVVM */,
 			);
 		};
 /* End PBXProject section */
@@ -226,6 +345,16 @@
 				2819A05D1E23745900719043 /* Assets.xcassets in Resources */,
 				2819A0681E237C5B00719043 /* v2panda.png in Resources */,
 				2819A05B1E23745900719043 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28DC2D6C1E24A89E00848337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DC2D801E24A89F00848337 /* LaunchScreen.storyboard in Resources */,
+				28DC2D7D1E24A89F00848337 /* Assets.xcassets in Resources */,
+				28DC2D7B1E24A89F00848337 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +374,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMVVM/Pods-DemoMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1519F8A7083B16FF3B701360 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlogMVVM/Pods-BlogMVVM-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6569D5C62ACBDA636D57EE3F /* [CP] Check Pods Manifest.lock */ = {
@@ -277,6 +421,36 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMVVM/Pods-DemoMVVM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8D7D8A534031332C49679230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlogMVVM/Pods-BlogMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4594A9D74E26137A35ECCFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -296,6 +470,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		28DC2D6A1E24A89E00848337 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DC2D8A1E24AD1600848337 /* PostListViewController.m in Sources */,
+				28DC2D931E24B8DB00848337 /* BlogListItemViewModel.m in Sources */,
+				28DC2D781E24A89F00848337 /* ViewController.m in Sources */,
+				28DC2D901E24B7FF00848337 /* ArticleModel.m in Sources */,
+				28DC2D751E24A89F00848337 /* AppDelegate.m in Sources */,
+				28DC2D8D1E24AD6E00848337 /* BlogListViewModel.m in Sources */,
+				28DC2D721E24A89F00848337 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -311,6 +499,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				2819A05F1E23745900719043 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		28DC2D791E24A89F00848337 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28DC2D7A1E24A89F00848337 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28DC2D7E1E24A89F00848337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28DC2D7F1E24A89F00848337 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -428,6 +632,32 @@
 			};
 			name = Release;
 		};
+		28DC2D831E24A89F00848337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76F91B0C99A2E431A3E96262 /* Pods-BlogMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BlogMVVM/Header.pch";
+				INFOPLIST_FILE = BlogMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RH.BlogMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28DC2D841E24A89F00848337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C773CA3999DBA17F817EC135 /* Pods-BlogMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BlogMVVM/Header.pch";
+				INFOPLIST_FILE = BlogMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RH.BlogMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +675,15 @@
 			buildConfigurations = (
 				2819A0651E23745900719043 /* Debug */,
 				2819A0661E23745900719043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28DC2D821E24A89F00848337 /* Build configuration list for PBXNativeTarget "BlogMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DC2D831E24A89F00848337 /* Debug */,
+				28DC2D841E24A89F00848337 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

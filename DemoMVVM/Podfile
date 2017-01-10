@@ -2,10 +2,17 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-target 'DemoMVVM' do
+targetsArray = ['DemoMVVM', 'BlogMVVM']
 
-pod 'ReactiveCocoa','2.5'
-pod 'AFNetworking'
-pod 'MBProgressHUD'
-
+targetsArray.each do |t|
+    
+    target t do
+        pod 'ReactiveCocoa','2.5'
+        pod 'AFNetworking'
+        pod 'MBProgressHUD'
+        pod 'MJExtension'
+        pod 'MJRefresh'
+    end
+    
 end
+
